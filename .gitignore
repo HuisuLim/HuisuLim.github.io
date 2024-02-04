@@ -22,5 +22,5 @@ package-lock.json
 =======
 *.map
 sw.min.js
-assets/js/dist
+# assets/js/dist
 >>>>>>> f3ea7e988779f46e577e1ac7b29593c1ac1e5cbf
