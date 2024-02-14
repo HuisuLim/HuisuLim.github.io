@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: HuisuLim # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: 개발자 공부 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -39,7 +39,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://github.com/HuisuLim # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
