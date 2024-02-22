@@ -6,7 +6,7 @@ categories: [Development, Algorithm]
 tags: [Topology Sort]
 ---
 ## **BFS(너비우선탐색)란?**
-<img src = "/assets/img/Topology_sort_picture/Topology_sort.gif" width="300" height="300">
+<img src = "/assets/img/Topology_sort_picture/Topology_sort.gif" alt="picture" width="300" height="300">
 - **위상정렬**은 **순서가 정해져 있는 그래프**를 탐색할 때 사용할 수 있는 방법이다.
 - 노드로 들어가는 간선의 개수, 즉 **진입차수**를 이용하여 그래프의 순서를 결정해준다.
 - 위상정렬은 **진입차수가 0**인 노드들을 방문하고 이와 **연결되어있는 간선들을 제거**(진입차수를 낮춤)하는 것을 반복하며 진행된다.
@@ -18,19 +18,19 @@ tags: [Topology Sort]
 <br>
 <table width="50%" align="center">
   <tr>
-    <td rowspan= "3" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림1.png"></td>
-    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표1.png"></td>
+    <td rowspan= "3" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림1.png" alt="picture"></td>
+    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표1.png" alt="picture"></td>
   </tr>
   <tr>
     <td><figure>
       <figcaption>Queue</figcaption>
-      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐1.png">
+      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐1.png" alt="picture">
     </figure></td>
   </tr>
   <tr>
     <td><figure>
       <figcaption>Result</figcaption>
-      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/결과1.png">
+      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/결과1.png" alt="picture">
     </figure></td>
   </tr>
 </table>
@@ -39,13 +39,13 @@ tags: [Topology Sort]
 <br>
 <table width="50%" align="center">
   <tr>
-    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림2.png"></td>
-    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표2.png"></td>
+    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림2.png" alt="picture"></td>
+    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표2.png" alt="picture"></td>
   </tr>
   <tr>
     <td><figure>
       <figcaption>Queue</figcaption>
-      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐2.png">
+      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐2.png" alt="picture">
     </figure></td>
   </tr>
 </table>
@@ -54,13 +54,13 @@ tags: [Topology Sort]
 <br>
 <table width="50%" align="center">
   <tr>
-    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림3.png"></td>
-    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표3.png"></td>
+    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림3.png" alt="picture"></td>
+    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표3.png" alt="picture"></td>
   </tr>
   <tr>
     <td><figure>
       <figcaption>Queue</figcaption>
-      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐3.png">
+      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐3.png" alt="picture">
     </figure></td>
   </tr>
 </table>
@@ -71,13 +71,13 @@ tags: [Topology Sort]
 <br>
 <table width="50%" align="center">
   <tr>
-    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림4.png"></td>
-    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표4.png"></td>
+    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림4.png" alt="picture"></td>
+    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표4.png" alt="picture"></td>
   </tr>
   <tr>
     <td><figure>
       <figcaption>Queue</figcaption>
-      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐4.png">
+      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐4.png" alt="picture">
     </figure></td>
   </tr>
 </table>
@@ -86,13 +86,13 @@ tags: [Topology Sort]
 <br>
 <table width="50%" align="center">
   <tr>
-    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림5.png"></td>
-    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표5.png"></td>
+    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림5.png" alt="picture"></td>
+    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표5.png" alt="picture"></td>
   </tr>
   <tr>
     <td><figure>
       <figcaption>Queue</figcaption>
-      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐5.png">
+      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐5.png" alt="picture">
     </figure></td>
   </tr>
 </table>
@@ -101,13 +101,13 @@ tags: [Topology Sort]
 <br>
 <table width="50%" align="center">
   <tr>
-    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림6.png"></td>
-    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표6.png"></td>
+    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림6.png" alt="picture"></td>
+    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표6.png" alt="picture"></td>
   </tr>
   <tr>
     <td><figure>
       <figcaption>Queue</figcaption>
-      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐6.png">
+      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐6.png" alt="picture">
     </figure></td>
   </tr>
 </table>
@@ -116,13 +116,13 @@ tags: [Topology Sort]
 <br>
 <table width="50%" align="center">
   <tr>
-    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림7.png"></td>
-    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표7.png"></td>
+    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림7.png" alt="picture"></td>
+    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표7.png" alt="picture"></td>
   </tr>
   <tr>
     <td><figure>
       <figcaption>Queue</figcaption>
-      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐7.png">
+      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐7.png" alt="picture">
     </figure></td>
   </tr>
 </table>
@@ -130,13 +130,13 @@ tags: [Topology Sort]
 <br>
 <table width="50%" align="center">
   <tr>
-    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림8.png"></td>
-    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표8.png"></td>
+    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림8.png" alt="picture"></td>
+    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표8.png" alt="picture"></td>
   </tr>
   <tr>
     <td><figure>
       <figcaption>Queue</figcaption>
-      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐8.png">
+      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐8.png" alt="picture">
     </figure></td>
   </tr>
 </table>
@@ -144,13 +144,13 @@ tags: [Topology Sort]
 <br>
 <table width="50%" align="center">
   <tr>
-    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림9.png"></td>
-    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표8.png"></td>
+    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림9.png" alt="picture"></td>
+    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표8.png" alt="picture"></td>
   </tr>
   <tr>
     <td><figure>
       <figcaption>Queue</figcaption>
-      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐9.png">
+      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐9.png" alt="picture">
     </figure></td>
   </tr>
 </table>
@@ -158,13 +158,13 @@ tags: [Topology Sort]
 <br>
 <table width="50%" align="center">
   <tr>
-    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림10.png"></td>
-    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표8.png"></td>
+    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림10.png" alt="picture"></td>
+    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표8.png" alt="picture"></td>
   </tr>
   <tr>
     <td><figure>
       <figcaption>Queue</figcaption>
-      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐9.png">
+      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐9.png" alt="picture">
     </figure></td>
   </tr>
 </table>
@@ -172,13 +172,13 @@ tags: [Topology Sort]
 <br>
 <table width="50%" align="center">
   <tr>
-    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림7.png"></td>
-    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표7.png"></td>
+    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림7.png" alt="picture"></td>
+    <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표7.png" alt="picture"></td>
   </tr>
   <tr>
     <td><figure>
       <figcaption>Queue</figcaption>
-      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐7.png">
+      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐7.png" alt="picture">
     </figure></td>
   </tr>
 </table>
