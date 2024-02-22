@@ -18,13 +18,19 @@ tags: [Topology Sort]
 <br>
 <table width="50%" align="center">
   <tr>
-    <td rowspan= "2" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림1.png"></td>
+    <td rowspan= "3" width="50%"><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/그림1.png"></td>
     <td><img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/표1.png"></td>
   </tr>
   <tr>
     <td><figure>
       <figcaption>Queue</figcaption>
       <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/큐1.png">
+    </figure></td>
+  </tr>
+  <tr>
+    <td><figure>
+      <figcaption>Result</figcaption>
+      <img src = "https://HuisuLim.github.io/assets/img/Topology_sort_picture/결과1.png">
     </figure></td>
   </tr>
 </table>
@@ -58,8 +64,9 @@ tags: [Topology Sort]
     </figure></td>
   </tr>
 </table>
-- 큐의 front에 있는 노드는 1번 노드로, 1번 노드를 큐에서 pop한 후 1번 노드와 연결되어 있는 2번, 3번 노드의 간선을 제거해준다(진입차수를 1씩 낮춘다).
-간선이 제거된(진입차수가 낮아진) 2번, 3번 노드는 진입차수가 0이 되었으므로 이들을 큐에 삽입한다.
+- 큐의 front에 있는 노드는 1번 노드로 이를 출력 후 큐에서 pop한다.
+- 1번 노드와 연결되어 있는 2번, 3번 노드의 간선을 제거해준다(진입차수를 1씩 낮춘다).
+- 간선이 제거된(진입차수가 낮아진) 2번, 3번 노드는 진입차수가 0이 되었으므로 이들을 큐에 삽입한다.
 
 <br>
 <table width="50%" align="center">
